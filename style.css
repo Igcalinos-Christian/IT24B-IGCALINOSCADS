@@ -1,0 +1,14 @@
+h1{
+    font-size: 24px;
+    color: purple;
+    font-style: arial;
+}
+body{
+    font-size: 24px;
+    color: grey;
+    font-style: arial;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
