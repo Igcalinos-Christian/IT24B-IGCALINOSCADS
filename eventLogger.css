@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+#logButton{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#logButton:hover{
+    background-color: rgb(64, 214, 0);
+}
+
+#clearButton{
+    background-color: rgb(224, 85, 85);
+    border-radius: 10px;
+}
+
+#clearButton:hover{
+    background-color: rgb(208, 0, 0);
+}
+
+#UIL{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    background-color: rgb(185, 220, 255);
+    height: 10rem;
+    width: 49%;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+
+#UIR{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    background-color: rgb(95, 250, 250);
+    min-height: 10rem;
+    min-width: 49%;
+    border: 2px solid black;
+    justify-content: space-around;
+}

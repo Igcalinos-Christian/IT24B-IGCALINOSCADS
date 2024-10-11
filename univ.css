@@ -1,0 +1,13 @@
+.applet-flex-container{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+}
+.applet-flex-container > div{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.applet-card{
+    height: 12rem;
+    width: 10rem;
+}
