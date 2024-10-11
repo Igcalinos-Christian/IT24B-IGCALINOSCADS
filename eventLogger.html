@@ -29,17 +29,19 @@
     </div>
 
     <div class="container">
-
         <div id="UIL">
-            <h2>Click Me</h2>
-            <button id="clicker" onclick="Logger()">Click Me</button>
+            <h4>This is an event logger</h4>
+            <button id="logButton">Click Me!</button>
+            <button id="clearButton">Clear Logs</button>
         </div>
 
         <div id="UIR">
-            <h2>Logs</h2>
-            <p id="output"></p>  
+            <h4>Logged events</h4>
+            <p id="logCount"></p>
+            <div id="cardContainer">
+                <p id="output"></p>
+            </div>
         </div>
-        
     </div>
     
     <script src="evLog.js"></script>
