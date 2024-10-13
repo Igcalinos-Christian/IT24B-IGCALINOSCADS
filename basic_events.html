@@ -9,6 +9,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="univ.css">
+    <link rel="stylesheet" href="basic_events.css">
 </head>
 <body>
     <div>
@@ -21,6 +22,20 @@
               </form>
             </div>
           </nav>
+
+          <div id="table">
+            <div id="table1">
+                <h2>Input Area</h2>
+                <input type="text" id="input" oninput="output" placeholder="Type here...">
+                <button class="btn btn-primary" onclick="showAlert()">Alert Button</button>
+            </div>
+
+            <div id="table2">
+                <h2>Output Area</h2>
+                <p id="output"></p>
+            </div>
+          </div>
+
     </div>
 </body>
 </html>
