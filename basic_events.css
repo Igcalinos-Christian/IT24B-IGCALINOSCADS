@@ -1,0 +1,46 @@
+#table{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+#table1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding-inline: 0.5rem;
+    background-color: beige;
+    min-width: 49%;
+    max-width: 49%;
+}
+
+#table2{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding-inline: 0.5rem;
+    background-color: bisque;
+    min-width: 49%;
+    max-width: 49%;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+button{
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#output{
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding-inline: 0.5rem;
+    border-radius: 10px;
+}
