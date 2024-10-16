@@ -8,7 +8,7 @@ class appletList{
     async init(){
         await this.fetchData();
         this.renderList(this.list);
-        this.bindSearchEvent();
+        this.searchList();
     }
 
     async fetchData(){
@@ -20,14 +20,15 @@ class appletList{
         }
     }
     
-    renderList(){
-        const listContainer = document.getElementById();
-        listContainer.innerHTML = list.map(list => 
-            `<button class="btn btn-primary style="margin-top: 15px; width: 25rem" href="${list.applet_link}">
-            ${list.applet_name}
+    renderList(list) {
+        const listContainer = document.getElementById('List');
+        listContainer.innerHTML = list.map(list =>
+            `<button class="btn btn-primary" style="margin-top: 15px; width: 25rem;" href="${list.applet_link}">
+                ${list.applet_name}
             </button><br>`
         ).join('');
     }
+    
 
     searchList(){
         const searchList = document.getElementById('searchList');
@@ -52,4 +53,4 @@ class appletList{
     }
 }
 
-const studentList = new StudentList('dynamic_events.json');
+const list = new appletList('dynamic-events.json');
