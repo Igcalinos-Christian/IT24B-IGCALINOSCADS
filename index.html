@@ -16,13 +16,11 @@
             <div class="container-fluid">
               <a class="navbar-brand">Applet Gallery by Igcalinos</a>
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" oninput="Searcher()" id="query">
-                <button class="btn btn-outline-success" type="submit" onclick="Searcher()" id="submitBtn">Search</button>
+                <input class="form-control" placeholder="Search" id="input">
               </form>
             </div>
           </nav>
     </div>
-
 
     <div class="applet-flex-container">
         <div class="card applet-card" style="width: 18rem;" id="Applet-1">
@@ -48,14 +46,16 @@
               <a href="basic_events.html" class="btn btn-primary">BasicEvents</a>
             </div>
           </div>
+          
     </div>
 
-    <div id="result"></div>
-
-
+    <div class="container" id="container#2">
+      <div id="output"></div>
+    </div>
     
     
 
 </body>
 <script src="applet-gallery.js"></script>
+<script src="dynamic-events.js"></script>
 </html>

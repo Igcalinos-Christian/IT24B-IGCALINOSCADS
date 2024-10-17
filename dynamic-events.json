@@ -1,0 +1,19 @@
+[
+    {
+      "applet_id": 1,
+      "applet_name": "Leaflet Map",
+      "applet_link": "leafletMap.html"
+    },
+    {
+        "applet_id": 2,
+        "applet_name": "Event Logger",
+        "applet_link": "eventLogger.html"
+  
+    },
+    {
+        "applet_id": 3,
+        "applet_name": "Basic Events",
+        "applet_link": "basic_events.html"
+    }
+]
+  
