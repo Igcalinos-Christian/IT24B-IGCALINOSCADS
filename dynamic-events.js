@@ -18,7 +18,7 @@ let processedInput;
 let processedAppletName;
 
 let appletLinkButton;
-let buttonParameters = `class="btn btn-primary;" id="appletButton;"`
+let buttonParameters = `class="btn btn-primary;" id="appletButton"`
 
 input.addEventListener('input', () => {
     inputVal = input.value;
