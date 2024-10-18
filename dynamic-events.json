@@ -2,17 +2,19 @@
     {
       "applet_id": 1,
       "applet_name": "Leaflet Map",
-      "applet_link": "leafletMap.html"
+      "applet_link": "leafletMap.html",
+      "applet_description": "Map applet made using leaflet and open maps. Uses Sir. Cliff's APIs as a reference."
     },
     {
         "applet_id": 2,
         "applet_name": "Event Logger",
-        "applet_link": "eventLogger.html"
-  
+        "applet_link": "eventLogger.html",
+        "applet_description": "An event logger that records the date and time whenever a button is clicked."
     },
     {
         "applet_id": 3,
         "applet_name": "Basic Events",
-        "applet_link": "basic_events.html"
+        "applet_link": "basic_events.html",
+        "applet_description": "Contains very oninput and onclick functions."
     }
 ]
