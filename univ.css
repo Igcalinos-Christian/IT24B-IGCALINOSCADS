@@ -31,6 +31,7 @@
 }
 
 .card{
+    display: flex;
     margin-top: .5rem;
     padding-inline: 1rem;
 }
