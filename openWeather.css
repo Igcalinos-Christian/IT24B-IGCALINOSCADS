@@ -5,8 +5,11 @@
     align-items: center;
     margin-top: .5rem;
     border: 2px solid black;
-    height: 40rem;
+    min-height: 40rem;
     padding-bottom: .5rem;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #weatherUI{
