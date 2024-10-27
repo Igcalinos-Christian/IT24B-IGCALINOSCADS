@@ -29,11 +29,19 @@
             <br>
             <input type="text" name="" id="search" placeholder="search City">
             <br>
-            <button id="searchInput">search city</button>
+            <button id="searchInput" onclick="getWeather()">search city</button>
+        </div>
+
+        <div id="ouput">
+            <div id="response"></div>
+            <img src="weatherIcon" alt="Weather Icon">
+            <div id="weather"></div>
+            <div id="temp"></div>
+            <div id="forecast"></div>
         </div>
     </div>
 
 </body>
 <script src="applet-gallery.js"></script>
-<script src="dynamic-events.js"></script>
+<script src="openWeather.js"></script>
 </html>
