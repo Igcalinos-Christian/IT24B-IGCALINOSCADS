@@ -34,7 +34,6 @@ function getWeather() {
 function displayWeather(data) {
     const tempDivInfo = document.getElementById('temp');
     const weatherInfoDiv = document.getElementById('weather');
-    const weatherIcon = document.getElementById('weatherIcon');
     const hourlyForecastDiv = document.getElementById('forecast');
 
     // Clear previous content
@@ -48,29 +47,23 @@ function displayWeather(data) {
         const cityName = data.name;
         const temperature = Math.round(data.main.temp - 273.15); // Convert to Celsius
         const description = data.weather[0].description;
-        const iconCode = data.weather[0].icon;
-        const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
-
+    
         const temperatureHTML = `
             <p>${temperature}°C</p>
         `;
-
+    
         const weatherHtml = `
             <p>${cityName}</p>
             <p>${description}</p>
         `;
-
+    
         tempDivInfo.innerHTML = temperatureHTML;
         weatherInfoDiv.innerHTML = weatherHtml;
-        weatherIcon.src = iconUrl;
-        weatherIcon.alt = description;
-
-        showImage();
     }
 }
 
 function displayHourlyForecast(hourlyData) {
-    const hourlyForecastDiv = document.getElementById('hourly-forecast');
+    const hourlyForecastDiv = document.getElementById('forecast');
 
     const next24Hours = hourlyData.slice(0, 8); // Display the next 24 hours (3-hour intervals)
 
@@ -91,9 +84,4 @@ function displayHourlyForecast(hourlyData) {
 
         hourlyForecastDiv.innerHTML += hourlyItemHtml;
     });
-}
-
-function showImage() {
-    const weatherIcon = document.getElementById('weather-icon');
-    weatherIcon.style.display = 'block'; // Make the image visible once it's loaded
 }
