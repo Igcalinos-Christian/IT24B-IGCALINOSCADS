@@ -1,0 +1,22 @@
+#weatherContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    border: 2px solid black;
+    height: 40rem;
+    padding-bottom: .5rem;
+}
+
+#weatherUI{
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    border: 2px solid black;
+    margin-top: .5rem;
+    padding-inline: .5rem;
+    padding-bottom: .5rem;
+}
