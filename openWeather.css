@@ -7,9 +7,10 @@
     border: 2px solid black;
     min-height: 40rem;
     padding-bottom: .5rem;
-
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    background-color: rgb(127, 195, 255);
 }
 
 #weatherUI{
