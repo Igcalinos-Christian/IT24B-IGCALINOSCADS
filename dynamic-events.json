@@ -16,5 +16,11 @@
         "applet_name": "Basic Events",
         "applet_link": "basic_events.html",
         "applet_description": "Contains very oninput and onclick functions."
+    },
+    {
+        "applet_id": 4,
+        "applet_name": "Weather Applet",
+        "applet_link": "openWeather.html",
+        "applet_description": "Contains a simple weather applet utilizing openWeather's api."
     }
 ]
