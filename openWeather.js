@@ -1,7 +1,5 @@
 function getWeather() {
 
-// '3d30adc3e9c68ad489d6fafe6cf2a987';
-
     const keyGetter = document.getElementById('api').value;
     const apiKey = keyGetter;
     const input = document.getElementById('search').value;
