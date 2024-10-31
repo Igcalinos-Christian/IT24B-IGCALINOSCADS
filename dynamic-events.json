@@ -22,5 +22,11 @@
         "applet_name": "Weather Applet",
         "applet_link": "openWeather.html",
         "applet_description": "Contains a simple weather applet utilizing openWeather's api."
+    },
+    {
+        "applet_id": 5,
+        "applet_name": "To-do List Applet",
+        "applet_link": "todoList.html",
+        "applet_description": "Contains a simple to-do list applet made custom made by this idiot."
     }
 ]
