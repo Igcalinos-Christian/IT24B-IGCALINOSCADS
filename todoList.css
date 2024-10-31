@@ -1,0 +1,32 @@
+#taskInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+    margin-block: 1rem;
+    max-height: fit-content;
+    max-width: 20rem;
+    background-color: azure;
+}
+
+#inputField{
+    display: flex;
+    flex-direction: row;
+}
+
+#taskContainer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 20rem;
+    max-height: fit-content;
+    padding-block: 1rem;
+
+}
+
+#taskList{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid black;
+}
